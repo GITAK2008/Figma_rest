@@ -1,0 +1,59 @@
+.Nacalo{
+    width: 100vw;
+    height: 1950px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .Centr{
+        width: 1367px;
+        height: 1917px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .RAZ{
+            width: 1300px;
+            height: 872px;
+            display: flex;
+            justify-content: space-around;
+            .text{
+                width: 424px;
+                height: 580px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                h1{
+                    font-family: Tinos;
+                    font-size: 80px;
+                    color: #311F09;
+                    span{
+                        color: #FF8A00;
+                    }
+                }
+                p{
+                    font-family: Poppins;
+                    font-size: 25px;
+                    color: #5C4529;
+                }
+            }
+        }
+        .DVA{
+            width: 1300px;
+            height: 872px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .text{
+                width: 447px;
+                height: 320px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                p{
+                    font-family: Poppins;
+                    font-size: 25px;
+                    color: #5C4529;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,51 @@
+.Sec2{
+    width: 100vw;
+    height: 969px;
+    background-color: #ECFAF1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .Sec2_cen{
+        width: 1185px;
+        height: 689px;
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        .Img_sec{
+            width: 718px;
+            height: 689px;
+        }
+        .Text{
+            width: 433px;
+            height: 592px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: start;
+            h1{
+                font-family: Tinos;
+                color: #311F09;
+                font-size: 80px;
+                span{
+                    color: #FF8A00;
+                }
+            }
+            p{
+                font-family: Poppins;
+                font-size: 25px;
+                color: #5C4529;
+            }
+            .Menu{
+                width: 232px;
+                height: 74px;
+                background-color: #FF8A00;
+                font-family: Poppins;
+                font-size: 20px;
+                color: white;
+                cursor: pointer;
+                border-radius: 30px;
+                border: none;
+            }
+        }
+    }
+}

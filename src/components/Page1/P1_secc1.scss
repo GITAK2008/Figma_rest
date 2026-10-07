@@ -1,0 +1,78 @@
+.Sec1{
+    width: 100vw;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .Sec1_cen{
+        width: 1300px;
+        height: 630px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        .Text{
+            width: 536px;
+            height: 540px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            h1{
+                font-family: Raleway;
+                font-size: 85px;
+                color: #311F09;
+            }
+            p{
+                font-family: Poppins;
+                font-size: 20px;
+                color: #5C4529;
+            }
+            .Res{
+                width: 153px;
+                height: 40px;
+                background-color: #FFE8CC;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 30px;
+                p{
+                    font-family: Raleway;
+                    font-size: 18px;
+                    color: #FF8A00;
+                }
+            }
+            .Buttons{
+                width: 488px;
+                height: 75px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .Order{
+                    width: 232px;
+                    height: 74px;
+                    background-color: #FF8A00;
+                    font-family: Poppins;
+                    font-size: 20px;
+                    color: white;
+                    cursor: pointer;
+                    border: none;
+                    border-radius: 30px;
+                }
+                .Reserv{
+                    width: 232px;
+                    height: 74px;
+                    background-color: #3FA72F;
+                    font-family: Poppins;
+                    font-size: 20px;
+                    color: white;
+                    cursor: pointer;
+                    border: none;
+                    border-radius: 30px;
+                }
+            }
+        }
+        .Img_sec{
+            width: 700px;
+            height: 600px;
+        }
+    }
+}

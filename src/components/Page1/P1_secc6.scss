@@ -1,0 +1,96 @@
+.Sec6{
+    width: 100vw;
+    height: 1384px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../assets/grenka.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    .Sec6_cen{
+        width: 1100px;
+        height: 1164px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        h1{
+            font-family: Poppins;
+            font-size: 80px;
+            color: #311F09;
+        }
+        .Girl{
+            width: 1100px;
+            height: 678px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            text-align: center;
+            .pys{
+                width: 150px;
+                height: 150px;
+            }
+            h1{
+                font-family: Poppins;
+                font-size: 50px;
+                color: #311F09;
+            }
+            p{
+                font-family: Poppins;
+                font-size: 30px;
+                color: #5C4529;
+            }
+            .text{
+                width: 600px;
+                height: 30px;
+                display: flex;
+                font-size: 50px;
+                p{
+                    font-family: Poppins;
+                    font-size: 50px;
+                    color: #311F09;
+                }
+            }
+            .text1{
+                width: 600px;
+                height: 20px;
+                display: flex;
+                justify-content: end;
+                align-items: start;
+                p{
+                    font-family: Poppins;
+                    font-size: 50px;
+                    color: #311F09;
+                }
+            }
+        }
+        .Peoples{
+            width: 1063px;
+            height: 250px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+.swiper {
+  width: 1100px;
+  height: 698px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,92 @@
+footer{
+    width: 100vw;
+    height: 691px;
+    background-color: #311F09;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    .centr{
+        width: 1112px;
+        height: 335px;
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        .first{
+            width: 352px;
+            height: 315px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            font-family: Poppins;
+            font-size: 20px;
+            color: white;
+            .fac{
+                width: 132px;
+                height: 51px;
+            }
+            .yeezy{
+                width: 240px;
+                height: 60px;
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+        .second{
+            width: 123px;
+            height: 335px;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            h1{
+                font-family: Poppins;
+                font-size: 25px;
+                color: #FF8A00;
+            }
+            p{
+                font-family: Poppins;
+                font-size: 20px;
+                color: #E3E2E0;
+            }
+        }
+        .third{
+            width: 153px;
+            height: 225px;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            h1{
+                font-family: Poppins;
+                font-size: 25px;
+                color: #FF8A00;
+            }
+            p{
+                font-family: Poppins;
+                font-size: 20px;
+                color: #E3E2E0;
+            }
+        }
+        .fourth{
+            width: 280px;
+            height: 247px;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            h1{
+                font-family: Poppins;
+                font-size: 25px;
+                color: #FF8A00;
+            }
+            p{
+                font-family: Poppins;
+                font-size: 20px;
+                color: #E3E2E0;
+            }
+        }
+    }
+    .end{
+        font-family: Poppins;
+        font-size: 20px;
+        color: white;
+    }
+}

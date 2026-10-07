@@ -1,0 +1,55 @@
+.Sec5{
+    width: 100vw;
+    height: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .Sec5_cen{
+        width: 1112px;
+        height: 1238px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        h1{
+            font-family: Tinos;
+            font-size: 80px;
+            color: #311F09;
+        }
+        .Humans{
+            width: 1112px;
+            height: 719px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: space-between;
+            .Human{
+                width: 344px;
+                height: 719px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                h1{
+                    font-family: Poppins;
+                    font-size: 25px;
+                }
+                p{
+                    font-family: Poppins;
+                    font-size: 25px;
+                    color: #A08D76;
+                }
+            }
+        }
+        .View{
+            width: 235px;
+            height: 74px;
+            background-color: #FF8A00;
+            font-family: Poppins;
+            font-size: 20px;
+            color: white;
+            cursor: pointer;
+            border: none;
+            border-radius: 30px;
+        }
+    }
+}
